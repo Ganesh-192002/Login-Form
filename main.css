@@ -1,0 +1,30 @@
+*{
+    margin: 20px;
+    font-family:  Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.yy{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+#tag{
+    text-align:center;
+}
+
+form{
+    color: white;
+}
+#ff{
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    margin-left: 20%;
+}

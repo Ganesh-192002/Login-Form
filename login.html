@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel = "stylesheet" href = "{{ url_for('static',filename= 'css/main.css') }}" >
+</head>
+<body>
+    <div class="yy">
+        <form action="/home" method="post">
+            <h3 id="tag">Log In</h3>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+            <input id = "ff" type="submit" value="submit">
+        </form>
+        <p class="new_acc" onclick= "window.location.href = './create';">Create new Account</p>
+    </div>
+    <script src="{{ url_for('static', filename='js/func.js') }}"></script>
+</body>
+</html>
